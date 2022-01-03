@@ -1,0 +1,24 @@
+:root {
+    --color-bg-header: #FF7043;
+    --color-bg-dark-header: #F4511E;
+    --color-fg-header: #F5F5F5;
+
+    --color-bg-nav: #424242;
+    --color-fg-nav: #F5F5F5;
+
+    --color-bg-aside: #EEEEEE;
+    --color-fg-aside: #212121;
+
+    --color-bg-main: #F5F5F5;
+    --color-fg-main: #212121;
+    --color-fg-gray-main: #757575;
+
+    --color-bg-card: #FFECB3;
+    --color-bg-dark-card: #FFE082;
+    --color-fg-card: #212121;
+    --color-fg-gray-card: #757575;
+
+    --color-bg-footer: #424242;
+    --color-bg-gray-footer: #757575;
+    --color-fg-footer: #F5F5F5;
+}

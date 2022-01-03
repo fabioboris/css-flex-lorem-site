@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+  #content>header {
+    min-height: 100vh;
+  }
+  #content>header>.pg-down {
+    display: block;
+  }
+
+  #content>nav,
+  #content>.main,
+  #content>footer .links {
+    flex-direction: column;
+  }
+
+  #content>nav a {
+    border-bottom: 1px solid rgba(255, 255, 255, 20%);
+  }
+
+  #content>.main aside a {
+    border-bottom: 1px solid rgba(0, 0, 0, 20%);
+  }
+
+  #content>.main .cards a {
+    width: 100%;
+  }
+}

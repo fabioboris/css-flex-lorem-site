@@ -1,0 +1,36 @@
+#content>.main .cards {
+  margin-top: 1em;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+#content>.main .cards a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  
+  border-radius: 8px;
+  border-top: var(--color-bg-dark-card) 4px solid;
+  background-color: var(--color-bg-card);
+  color: var(--color-fg-card);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .1);
+  padding: 1em;
+  width: 240px;
+  
+  transition-property: transform, box-shadow;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+#content>.main .cards a:hover {
+  transform: translateY(-16px);
+  box-shadow: 4px 24px 16px rgba(0, 0, 0, .1);
+}
+
+#content>.main .cards small {
+  color: var(--color-fg-gray-card);
+  font-size: .7em;
+}

@@ -1,0 +1,41 @@
+#content>header {
+  background-color: var(--color-bg-header);
+  color: var(--color-fg-header);
+  border-bottom: var(--color-bg-dark-header) 6px solid;
+  
+  height: var(--header-height);
+  
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+#content>header>.pg-down {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#content>header>.pg-down a {
+  color: var(--color-fg-header);
+  font-size: 4em;
+  text-decoration: none;
+  text-shadow: 0 2px 0 rgba(0,0,0,.2);
+}
+
+#content>header>* {
+  text-align: center;
+  margin: 0;
+}
+
+#content>header h1 {
+  font-size: 4em;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, .2);
+}
+
+#content>header p {
+  font-family: 'Lobster Two', cursive;
+  font-size: 2em;
+}

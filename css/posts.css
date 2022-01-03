@@ -1,0 +1,17 @@
+#content>.main .posts article {
+  margin-bottom: 2em;
+}
+
+#content>.main .posts small {
+  color: var(--color-fg-gray-main);
+}
+
+#content>.main .posts img {
+  float: left;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 8px;
+  object-fit: cover;
+  object-position: center;
+}

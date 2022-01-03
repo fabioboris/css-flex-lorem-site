@@ -1,0 +1,20 @@
+#content>nav {
+  background-color: var(--color-bg-nav);
+  color: var(--color-fg-nav);
+  min-height: var(--nav-height);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#content>nav a {
+  line-height: var(--nav-height);
+  color: var(--color-fg-nav);
+  padding: 0 1em;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+#content>nav a:hover {
+  background-color: rgba(255, 255, 255, 30%);
+}

@@ -1,0 +1,25 @@
+#content>.main aside {
+  background-color: var(--color-bg-aside);
+  color: var(--color-fg-aside);
+  min-width: 200px;
+}
+
+#content>.main aside h3 {
+  padding: 0.6em 1em;
+}
+
+#content>.main aside .links {
+  display: flex;
+  flex-direction: column;
+}
+
+#content>.main aside .links a {
+  color: var(--color-fg-aside);
+  text-decoration: none;
+  padding: 0.6em 1em;
+  transition: background-color 0.3s;
+}
+
+#content>.main aside .links a:hover {
+  background-color: rgba(0, 0, 0, 20%);
+}
